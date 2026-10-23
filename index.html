@@ -1,0 +1,385 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Evans Addo's personal portfolio showcasing web development, engineering and practical projects.">
+
+    <title>Evans Addo | Web Developer in Training</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a class="logo" href="#home">Evans<span>.dev</span></a>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="navLinks">
+                ☰
+            </button>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a class="nav-contact" href="#contact">Contact Me</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero section" id="home">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">ENGINEERING · TECHNOLOGY · WEB DEVELOPMENT</p>
+
+                    <h1>Hello, I'm <span>Evans Addo.</span></h1>
+
+                    <h2>Aspiring Web Developer & Mechanical Engineer</h2>
+
+                    <p class="hero-description">
+                        I am learning to build modern, responsive websites
+                        and practical digital solutions that solve real problems
+                        for individuals and businesses.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#projects">
+                            Explore My Projects
+                        </a>
+
+                        <a class="button button-secondary" href="#contact">
+                            Contact Me
+                        </a>
+                    </div>
+
+                    <p class="availability">
+                        <span class="status-dot"></span>
+                        Learning, building and growing every day
+                    </p>
+                </div>
+
+                <div class="hero-visual" aria-label="Introduction card">
+                    <div class="visual-top">
+                        <span class="visual-dot"></span>
+                        <span class="visual-dot"></span>
+                        <span class="visual-dot"></span>
+                        <span class="visual-label">MY JOURNEY</span>
+                    </div>
+
+                    <div class="visual-content">
+                        <div class="initials">EA</div>
+                        <p class="visual-kicker">THE GOAL</p>
+                        <h2>Turning ideas into working websites.</h2>
+                        <p>
+                            Learning the fundamentals. Practising with real
+                            projects. Building useful solutions.
+                        </p>
+
+                        <div class="visual-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+
+                    <div class="visual-footer">
+                        <span>BUILD</span>
+                        <span>LEARN</span>
+                        <span>IMPROVE</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+  
+        <section class="section" id="about">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">GET TO KNOW ME</p>
+                    <h2>About Me</h2>
+                    <p>
+                        My background, interests and what I am working towards.
+                    </p>
+                </div>
+
+                <div class="learning-tools">
+                    <button id="learnButton" type="button">
+                        Show my progress
+                    </button>
+
+                    <p id="learnMessage" aria-live="polite"></p>
+
+                    <div class="counter-card">
+                        <h3>My Coding Practice</h3>
+                        <p>Number of times I've practised:</p>
+
+                        <p id="counter">0</p>
+
+                        <button id="countButton" type="button">
+                            Count my practice
+                        </button>
+
+                        <button id="resetButton" type="button">
+                            Reset
+                        </button>
+                    </div>
+                </div>
+
+                <div class="about-card">
+                    <div>
+                        <h3>Engineering meets technology</h3>
+
+                        <p>
+                            I have a background in mechanical engineering and
+                            an interest in using technology to solve practical
+                            problems.
+                        </p>
+
+                        <p>
+                            I am developing my web programming skills through
+                            hands-on projects. My focus is on writing code I
+                            understand, designing useful interfaces and
+                            learning to build reliable websites.
+                        </p>
+
+                        <p>
+                            My goal is to grow into a capable web developer,
+                            contribute to professional teams and provide
+                            quality digital solutions for clients.
+                        </p>
+                    </div>
+
+                    <div class="about-facts">
+                        <div class="fact">
+                            <span class="fact-number">01</span>
+                            <div>
+                                <h4>Learn</h4>
+                                <p>Understand the fundamentals.</p>
+                            </div>
+                        </div>
+
+                        <div class="fact">
+                            <span class="fact-number">02</span>
+                            <div>
+                                <h4>Build</h4>
+                                <p>Practise through real projects.</p>
+                            </div>
+                        </div>
+
+                        <div class="fact">
+                            <span class="fact-number">03</span>
+                            <div>
+                                <h4>Improve</h4>
+                                <p>Test, debug and keep growing.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section section-muted" id="skills">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">MY LEARNING PATH</p>
+                    <h2>Skills & Technologies</h2>
+                    <p>
+                        The tools I am learning to use to build websites
+                        and applications.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <div class="skill-icon">&lt;/&gt;</div>
+                        <h3>HTML</h3>
+                        <p>Building structured and accessible web pages.</p>
+                        <span class="skill-status">Learning</span>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">#</div>
+                        <h3>CSS</h3>
+                        <p>Creating layouts, styling and responsive designs.</p>
+                        <span class="skill-status">Learning</span>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">JS</div>
+                        <h3>JavaScript</h3>
+                        <p>Adding interaction and logic to websites.</p>
+                        <span class="skill-status">Learning</span>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">Git</div>
+                        <h3>Git & GitHub</h3>
+                        <p>Tracking changes and managing code projects.</p>
+                        <span class="skill-status">Next steps</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">MY WORK</p>
+                    <h2>Projects I'm Building</h2>
+                    <p>
+                        Practical projects that help me turn what I learn
+                        into working solutions.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-art project-art-blue">
+                            <span class="project-symbol">EA</span>
+                            <span class="project-art-label">PROJECT 01</span>
+                        </div>
+
+                        <div class="project-content">
+                            <p class="project-type">PERSONAL WEBSITE</p>
+                            <h3>Personal Portfolio</h3>
+                            <p>
+                                This website introduces me, documents my
+                                progress and showcases my developing skills.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <a class="text-link" href="#home">
+                                View this project ↑
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-art project-art-green">
+                            <span class="project-symbol">VI</span>
+                            <span class="project-art-label">PROJECT 02</span>
+                        </div>
+
+                        <div class="project-content">
+                            <p class="project-type">INDUSTRIAL SOURCING</p>
+                            <h3>VANTEK INDUSTRIAL</h3>
+                            <p>
+                                A business website project focused on
+                                industrial equipment, product discovery
+                                and quotation requests.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>Web Design</span>
+                                <span>Forms</span>
+                                <span>Supabase</span>
+                            </div>
+
+                            <a class="text-link"
+                               href="https://github.com/"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                GitHub website
+                            </a>
+                            <p class="project-note">
+                                Replace this link with your actual project
+                                repository or live website.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-art project-art-orange">
+                            <span class="project-symbol">+</span>
+                            <span class="project-art-label">PROJECT 03</span>
+                        </div>
+
+                        <div class="project-content">
+                            <p class="project-type">JAVASCRIPT PRACTICE</p>
+                            <h3>Interactive Calculator</h3>
+                            <p>
+                                A learning project for practising functions,
+                                user input, calculations and error handling.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>JavaScript</span>
+                                <span>Logic</span>
+                                <span>Testing</span>
+                            </div>
+
+                            <p class="project-note">
+                                Under development as part of my programming
+                                training.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+            <div class="container contact-grid">
+                <div>
+                    <p class="eyebrow">LET'S CONNECT</p>
+                    <h2>Have a project or opportunity?</h2>
+                    <p>
+                        I welcome opportunities to learn, collaborate and
+                        discuss website projects as my skills develop.
+                    </p>
+                </div>
+
+                <div class="contact-card">
+                    <h3>Get in touch</h3>
+                    <p>
+                        Replace the example email address below with your
+                        real contact email before publishing this website.
+                    </p>
+
+                    <a class="button button-primary"
+                       id="emailLink"
+                       href="mailto:your-email@example.com">
+                        Send Me an Email
+                    </a>
+
+                    <p class="contact-email">
+                        Email:
+                        <span id="emailText">your-email@example.com</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <a class="logo footer-logo" href="#home">Evans<span>.dev</span></a>
+
+            <p>
+                © <span id="currentYear"></span> Evans Addo.
+                Built while learning web development.
+            </p>
+
+            <a href="#home">Back to top ↑</a>
+        </div>
+    </footer>
+</body>
+</html>
